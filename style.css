@@ -1,7 +1,14 @@
 body{
     margin: 0%; 
 }
-
+#top-banner{
+    color: rgb(240, 231, 231);
+    text-align: center;
+    background-color: rgb(11, 9, 20);
+    margin: 0%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
 .flexible-conainer{
     display: flex;
     margin-bottom: 100px;
@@ -22,13 +29,13 @@ p {
 #first-text div{
     
     border-left:5px solid;
-    border-image: linear-gradient(rgb(43, 43, 107), rgb(177, 11, 47));
+    border-image: linear-gradient(rgb(233, 126, 149), rgb(160, 74, 93));
     border-image-slice: 1;
     
 }
 #first-text h1{
     font-family: 'Luxurious Roman', cursive;
-    font-size: 50px;
+    font-size: 60px;
     margin: 0%;  
 }
 #first-text p{
@@ -40,11 +47,12 @@ p {
 }
 .link-button{
     text-decoration: none;
-    background-image: linear-gradient(rgb(230, 12, 132),rgb(126, 7, 7));
+    background-image: linear-gradient(rgb(209, 82, 82),rgb(126, 7, 7));
     padding: 10px 40px;
     border-radius: 5px;
     color: white;
     font-weight: 700px;
+    font-size: 20px;
 }
 .orange{
     color: orange;
@@ -148,5 +156,45 @@ footer h1{
     font-weight: 700px;
 }
 #year-colour{
-    color: rgb(226, 43, 211);
+    color: rgb(230, 109, 145);
+}
+
+#projects h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700px;
+    
+}
+#projects h2{
+   
+    font-size: 40px;
+    font-weight: 700px; 
+    background-color: rgb(56, 192, 108);
+    margin: 3%;  
+    padding-left: 10px;
+}
+
+.projetcs-box{
+    width: 35%;
+    box-shadow: 10px 10px 30px rgb(116, 116, 113);
+    padding-left: 30px;
+    padding-right: 30px;
+    margin:2%;
+    border-radius: 10px;
+    text-align: justify;
+    
+}
+#new{
+    padding-left: 140px;
+}
+.project-link{
+    text-decoration: none;
+    
+    background-color: blueviolet;
+    padding: 5px 30px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700px;
+    margin: 0%;
+   
 }
