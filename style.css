@@ -6,7 +6,11 @@ body{
     display: flex;
     margin-bottom: 100px;
 }
-
+p {
+    font-family: 'Roboto Slab', serif;
+    color: rgb(56, 52, 52);
+    font-size: 20px;
+}
 .half-width{
     width: 50%;
 }
@@ -28,7 +32,7 @@ body{
     margin: 0%;  
 }
 #first-text p{
-    font-family: 'Roboto Slab', serif;
+    
     padding-right: 100px;
     text-align: justify;
     padding-top: 10px;
@@ -85,5 +89,25 @@ body{
 #section-2{
     padding-left: 190px;
     padding-right: 190px;
+    padding-top: 50px;
 
+}
+#section-3 img{
+    width: 55%;
+    padding-left: 200px;
+    background-image: url(backgrounds/shape-1.png);
+    background-size:300px ;
+    background-repeat: no-repeat;
+    background-position: 30% 50%;
+}
+#section-3-text h1{
+    font-size: 50px;
+    margin: 0%;
+    font-weight: 700px;
+}
+#section-3-text{
+    padding-right: 200px;
+    padding-left: 50px;
+    padding-top: 50px;
+    text-align: justify;
 }
